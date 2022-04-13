@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "copy:manifest": "cp ./manifest.txt ./dist/weekdaychromeext/manifest.json"
   },
   "private": true,
   "dependencies": {
