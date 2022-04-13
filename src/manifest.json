@@ -10,10 +10,8 @@
         "webNavigation"
       ],
       "background": {
-        "service_worker": [
-            "background.js",
-            "runtime.js"
-        ]
+        "service_worker": 
+            "background.js"
     },
       "action": { 
           "default_popup": "index.html"
