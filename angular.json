@@ -15,7 +15,10 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "customWebpackConfig": {
+            "path": "./custom-webpack.config.ts"
+          },
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
             "outputPath": "dist/weekdaychromeext",
             "index": "src/index.html",
