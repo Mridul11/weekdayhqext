@@ -3,11 +3,9 @@
     /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
     grid-template-columns: 1fr 4fr 1fr;
     grid-gap: 1rem;
-    /* height: 700px;
-    width: 1000px; */
+    height: 700px;
+    width: 1000px;
     padding: 20px;
-    height: 100%;
-    width: 100%;
 }
 
 
