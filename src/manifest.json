@@ -10,7 +10,7 @@
         "webNavigation"
       ],
       "background": {
-        "scripts": [
+        "service_worker": [
             "background.js",
             "runtime.js"
         ]
