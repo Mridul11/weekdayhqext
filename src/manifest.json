@@ -5,8 +5,16 @@
     "description":"weekday stuff",
     "permissions": [
         "tabs",
-        "bookmarks"
+        "bookmarks",
+        "activeTab",
+        "webNavigation"
       ],
+      "background": {
+        "scripts": [
+            "background.js",
+            "runtime.js"
+        ]
+    },
       "action": { 
           "default_popup": "index.html"
       }
