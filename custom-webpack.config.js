@@ -1,6 +1,6 @@
-module.exports = {
-  entry: { background: "src/background.ts" },
-  optimization: {
-    runtimeChunk: false
-  }
-};
+// module.exports = {
+//   entry: { background: "src/background.ts" },
+//   optimization: {
+//     runtimeChunk: false
+//   }
+// };

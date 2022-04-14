@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "copy:manifest": "cp ./manifest.txt ./dist/weekdaychromeext/manifest.json"
+    "copy:files": "cp ./src/background.js ./dist/weekdaychromeext/background.js && cp ./src/content.js ./dist/weekdaychromeext/content.js"
   },
   "private": true,
   "dependencies": {
