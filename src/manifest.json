@@ -5,9 +5,18 @@
     "description":"weekday stuff",
     "permissions": [
         "tabs",
-        "bookmarks"
+        "bookmarks",
+        "activeTab",
+        "webNavigation"
       ],
-      "action": { 
-          "default_popup": "index.html"
-      }
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": { 
+        "default_popup": "index.html"
+    },
+    "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self' "
+    }
 }
